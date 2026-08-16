@@ -1,6 +1,6 @@
 # This script is based on the one availible from dockerdocs: https://docs.docker.com/engine/examples/running_ssh_service/
 
-FROM debian:buster
+FROM debian:trixie
 
 RUN apt update && apt install -y openssh-server python-minimal
 RUN mkdir /var/run/sshd
